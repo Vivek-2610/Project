@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+}
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+header {
+  background-color: brown;
+  width: 100%;
+  height: 200px;
+}
+.box1 {
+  height: 200px;
+  width: 100%;
+  background-color: aqua;
+  padding: 25px 25px;
+}
+.box1a {
+  height: 150px;
+  width: 100%;
+  background-color: bisque;
+}
+section {
+  height: 600px;
+  width: 100%;
+  background-color: orange;
+}
+.con1 {
+  height: 600px;
+  width: 50%;
+  background-color: darkmagenta;
+  display: flex;
+  flex-direction: column;
+}
+.box2 {
+  height: 100px;
+  width: 90%;
+  background-color: green;
+  margin: 30px 20px 10px 20px;
+}
+.box2a {
+  height: 100px;
+  width: 90%;
+  background-color: green;
+  margin: 10px 20px;
+}
+.box2b {
+  height: 100px;
+  width: 90%;
+  background-color: green;
+  margin: 10px 20px 30px 20px;
+}
+.con2 {
+  background-color: aquamarine;
+  height: 600px;
+  width: 50%;
+}
+.box3 {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(231, 154, 48);
+  display: flex;
+  flex-direction: column;
+}
+.box3a {
+  height: 100px;
+  width: 90%;
+  background-color: rgb(29, 169, 229);
+  margin: 30px 20px 10px 20px;
+}
+.box3b {
+  height: 100px;
+  width: 90%;
+  background-color: rgb(29, 169, 229);
+  margin: 10px 20px;
+}
+.box3c {
+  height: 100px;
+  width: 90%;
+  background-color: rgb(29, 169, 229);
+  margin: 10px 20px 30px 20px;
+}
+.con2a {
+  display: flex;
+}
+.box4 {
+  height: 150px;
+  width: 33%;
+  background-color: darkblue;
+}
+.box5 {
+  height: 150px;
+  width: 34%;
+  background-color: rgb(11, 192, 80);
+}
+.box6 {
+  height: 150px;
+  width: 33%;
+  background-color: rgb(223, 23, 237);
+}
+.box7 {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(227, 26, 26);
+  display: flex;
+  flex-direction: column;
+}
+.box7a {
+  height: 150px;
+  width: 95%;
+  background-color: rgb(136, 193, 75);
+  margin: 20px 10px 5px 10px;
+}
+.box7b {
+  height: 150px;
+  width: 95%;
+  background-color: rgb(136, 193, 75);
+  margin: 5px 10px 20px 10px;
+}
+footer {
+  background-color: darkgoldenrod;
+  height: 200px;
+  width: 100%;
+}
+.con3 {
+  height: 200px;
+  width: 100%;
+  background-color: darkolivegreen;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box8 {
+  background-color: crimson;
+  height: 60px;
+  width: 9.2%;
+  margin: 20px 20px 10px 20px;
+}
+
+.box9 {
+  background-color: rgb(12, 169, 217);
+  height: 60px;
+  width: 28.2%;
+  margin: 20px 20px 10px 20px;
+}

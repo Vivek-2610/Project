@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <table id="data_table" align="center" style="border: none">
+        <tr>
+          <th>Country</th>
+        </tr>
+
+        <tr>
+          <td><input type="text" id="addCountry" /></td>
+          <td>
+            <input
+              type="button"
+              class="add"
+              onclick="add_row();"
+              value="Add Country"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Entered Value</td>
+        </tr>
+      </table>
+    </div>
+    <script>
+      function edit_row(no) {
+        document.getElementById("edit_button" + no).style.display = "none";
+        document.getElementById("save_button" + no).style.display = "block";
+
+        var name = document.getElementById("addrow" + no);
+
+        var name_data = name.innerHTML;
+
+        name.innerHTML =
+          "<input type='text' id='name_text" +
+          no +
+          "' value='" +
+          name_data +
+          "'>";
+      }
+
+      function save_row(no) {
+        var name_val = document.getElementById("name_text" + no).value;
+
+        document.getElementById("addrow" + no).innerHTML = name_val;
+
+        document.getElementById("edit_button" + no).style.display = "block";
+        document.getElementById("save_button" + no).style.display = "none";
+      }
+
+      function delete_row(no) {
+        document.getElementById("row" + no + "").outerHTML = "";
+      }
+
+      function add_row() {
+        var new_country = document.getElementById("addCountry").value;
+
+        var table = document.getElementById("data_table");
+        var table_len = table.rows.length;
+        var row = (table.insertRow(table_len).outerHTML =
+          "<tr id='row" +
+          table_len +
+          "'><td id='addrow" +
+          table_len +
+          "'>" +
+          new_country +
+          "</td>\
+          <td><input type='button' id='edit_button" +
+          table_len +
+          "' value='Edit' class='edit' onclick='edit_row(" +
+          table_len +
+          ")'> \
+          <input type='button' id='save_button" +
+          table_len +
+          "' value='Save' class='save' onclick='save_row(" +
+          table_len +
+          ")'><br> <input type='button' value='Delete' class='delete' onclick='delete_row(" +
+          table_len +
+          ")'></td></tr>");
+
+        document.getElementById("addCountry").value = "";
+      }
+    </script>
+  </body>
+</html>

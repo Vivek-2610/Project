@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+}
+header {
+  background-color: pink;
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+.box1 {
+  height: 400px;
+  width: 25%;
+  background-color: bisque;
+  display: flex;
+}
+.box1a {
+  height: 200px;
+  width: 50%;
+  background-color: rgb(194, 119, 28);
+}
+.box1b {
+  height: 200px;
+  width: 50%;
+  background-color: rgb(116, 186, 63);
+}
+.box2 {
+  height: 400px;
+  width: 25%;
+  background-color: rgb(209, 80, 25);
+}
+.box3 {
+  height: 400px;
+  width: 25%;
+  background-color: rgb(160, 94, 13);
+}
+.box3a {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(8, 155, 96);
+}
+.box3b {
+  height: 200px;
+  width: 50%;
+  background-color: rgb(18, 119, 186);
+}
+section {
+  height: 600px;
+  width: 100%;
+}
+.con1 {
+  height: 300px;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+}
+.box4 {
+  height: 30%;
+  width: 33.33%;
+  background-color: aquamarine;
+}
+.box5 {
+  height: 100%;
+  width: 33.33%;
+  background-color: blue;
+}
+.box6 {
+  height: 100%;
+  width: 33.33%;
+  background-color: rgb(171, 223, 3);
+}
+.box6a {
+  height: 70%;
+  width: 100%;
+  background-color: rgb(234, 123, 12);
+}
+.con2 {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(13, 220, 65);
+  display: flex;
+}
+.box7 {
+  height: 300px;
+  width: 50%;
+  background-color: rgb(139, 85, 19);
+  display: flex;
+}
+.box7a {
+  height: 150px;
+  width: 50%;
+  background-color: rgb(14, 85, 239);
+}
+.box7b {
+  height: 150px;
+  width: 50%;
+  background-color: rgb(237, 19, 190);
+}
+.box8 {
+  height: 300px;
+  width: 50%;
+  background-color: rgb(24, 244, 134);
+  display: flex;
+}
+.box8a {
+  height: 300px;
+  width: 50%;
+  background-color: rgb(52, 8, 91);
+}
+.box8b {
+  height: 150px;
+  width: 50%;
+  background-color: rgb(234, 76, 9);
+}
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: chocolate;
+  display: flex;
+}
+.box9 {
+  height: 300px;
+  width: 25%;
+  background-color: darkblue;
+}
+.box10 {
+  height: 300px;
+  width: 25%;
+  background-color: rgb(222, 187, 49);
+}
+.box11 {
+  height: 300px;
+  width: 35%;
+  background-color: rgb(204, 50, 153);
+}
